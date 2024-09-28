@@ -1,11 +1,11 @@
 # feature_extraction_paddleocr
-Feature Extraction from Images Using PaddleOCR
+# Feature Extraction from Images Using PaddleOCR
 This project leverages PaddleOCR for Optical Character Recognition (OCR) to extract text from images, followed by text cleaning and the application of regular expressions (regex) to retrieve specific features such as weight, height, volume, depth, and width.
 
-Problem Statement
+# Problem Statement
 Many image-based datasets contain crucial information embedded in text, such as product dimensions or specifications. This project automates the extraction of such information, streamlining the process of gathering structured data from unstructured sources.
 
-Solution
+#Solution
 OCR with PaddleOCR: Used to extract textual data from images.
 Text Cleaning: The extracted text is cleaned and converted to lowercase to ensure uniformity.
 Feature Extraction with Regex: Regular expressions are applied to detect and extract specific features such as:
