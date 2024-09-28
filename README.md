@@ -21,7 +21,7 @@ Text Cleaning:
 The extracted text is converted to lowercase and cleaned by removing unnecessary characters.
 Regex for Feature Extraction:
 Custom regular expressions are applied to extract specific features like weight, height, volume, depth, and width from the cleaned text.
-Tools & Libraries
+# Tools & Libraries
 PaddleOCR: For extracting text from images using Optical Character Recognition.
 Regex (Regular Expressions): To identify and extract specific features from the cleaned text.
 Python Libraries: General text processing tools and image handling libraries like OpenCV.
